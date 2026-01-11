@@ -70,6 +70,6 @@ while True:
     if cv2.waitKey(10) == 13:
         break
 cap.release()
-cv2.destroyAllWindow()
+cv2.destroyAllWindows()
 
 
