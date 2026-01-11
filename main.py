@@ -24,4 +24,4 @@ cv2.putText(imgTest, f'{results} {round(faceDis[0],2)}', (50, 50), cv2.FONT_HERS
 
 cv2.imshow('modi', imgModi)
 cv2.imshow('narendra-modi', imgTest)
-cv2.waitKeys(0)
+cv2.waitKey(0)
