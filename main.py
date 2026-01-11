@@ -14,7 +14,7 @@ encodeModi = face_recognition.face_encodings(imgModi)[0]
 cv2.rectangle(imgModi, (faceloc[3], faceloc[0]), (faceloc[1], faceloc[2]), (155, 0, 255), 2)
 
 facelocTest = face_recognition.face_locations(imgTest)[0]
-encodeTest = face_recognition.face_encodings(imgTest)[1]
+encodeTest = face_recognition.face_encodings(imgTest)[0]
 cv2.rectangle(imgTest, (facelocTest[3], facelocTest[0]), (facelocTest[1], facelocTest[2]), (155, 0, 255), 2)
 
 results = face_recognition.compare_faces([encodeModi], encodeTest)
